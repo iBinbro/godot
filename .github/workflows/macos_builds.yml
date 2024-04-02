@@ -68,7 +68,7 @@ jobs:
         with:
           name: ${{ matrix.cache-name }}
 
-      # Execute unit tests for the editor
+      # Execute unit tests for the editor2
       - name: Unit tests
         if: ${{ matrix.tests }}
         run: |
